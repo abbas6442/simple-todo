@@ -1,0 +1,25 @@
+.card-box {
+  display: flex;
+  justify-content: center;
+  width: 528px;
+  margin: auto;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+
+  > li {
+    list-style-type: none;
+    width: 528px;
+    height: 30px;
+    border-radius: 5px;
+    > button {
+      float: right;
+      height: 30px;
+      width: 40px;
+      border-radius: 5px;
+      background-color: rgb(203, 78, 78);
+    }
+  }
+}
